@@ -1,0 +1,19 @@
+
+* {
+    font-family: Avenir, 'Open Sans', sans-serif !important;
+    box-sizing: border-box;
+}
+body{
+	min-height: 700px;
+	margin: 0; 
+	background-color: #f1f1f1;
+}
+.background{padding: 20px;}
+.formContainer{margin: 0 auto;width: 75%;background-color: #fff;padding: 20px;}
+.textAlignCen{text-align: center;}
+.primaryButton{color: #fff;background-color: #0072ff;padding: 7px 15px;border: none;border-radius: 3px;min-width: 100px;font-weight: 500;
+    letter-spacing: 0.5px;cursor: pointer;}
+.displayFlex{display: flex;width: 100%;justify-content: space-around;}
+input[type="radio"]{margin-bottom: 8px;margin-right: 8px;vertical-align: -2px;}
+.marginBtm8{margin-bottom: 8px;}
+.primaryButton:disabled,.primaryButton[disabled]{border: 1px solid #999999;background-color: #cccccc;color: #333;}
