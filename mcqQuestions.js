@@ -124,8 +124,14 @@ class JavascriptMcqTest extends React.Component{
 						<div className="showOnSubmission">
 							<h2 className="textAlignCen"> Your Score is {this.state.score} </h2>
 							<div className="displayFlex">
-								<ol>{this.showAnswers()}</ol>
-								<ol>{this.showSubmission()}</ol>
+								<div>
+									<p className="loud">Correct Answers</p>
+									<ol>{this.showAnswers()}</ol>
+								</div>
+								<div>
+									<p className="loud">Your Answers</p>
+									<ol>{this.showSubmission()}</ol>
+								</div>
 							</div>
 							<p className="textAlignCen"> <input type="button" className="primaryButton" value="Retake Test" onClick={this.retakeTest}/></p>
 						</div>
