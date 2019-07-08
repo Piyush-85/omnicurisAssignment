@@ -17,3 +17,5 @@ body{
 input[type="radio"]{margin-bottom: 8px;margin-right: 8px;vertical-align: -2px;}
 .marginBtm8{margin-bottom: 8px;}
 .primaryButton:disabled,.primaryButton[disabled]{border: 1px solid #999999;background-color: #cccccc;color: #333;}
+.showOnSubmission ol{padding-left: 16px;}
+.loud{font-weight: 600;}
