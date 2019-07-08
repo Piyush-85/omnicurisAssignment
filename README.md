@@ -8,3 +8,5 @@ Delete all the source files - Browse through the src folder in the generated my-
 Download files from this repository - index.css, index.js and mcqQuestions.js.
 Create files index.css, index.js and mcqQuestions.js in SRC folder of my-app with the same content downloaded.
 Run command npm start.
+
+Screenshots of final view have been attached, please view them for your reference.
